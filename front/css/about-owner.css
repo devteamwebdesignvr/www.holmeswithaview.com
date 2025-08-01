@@ -1,0 +1,93 @@
+section.about-owner .col-6.col-md-6.col-sm-12.cont {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+section.about-owner .rhea_mask {
+    fill: var(--white-color);
+}
+section.about-owner .svg-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: none;
+}
+section.about-owner .col-6.col-md-6.col-sm-12.img{
+   position: relative;
+    height:500px;
+}
+section.about-owner .abt-owner {
+    position: relative;
+    height: 100%;
+}
+section.about-owner .abt-img {
+   overflow: hidden;
+    border-radius: 50px;
+    width: 90%;
+}
+.abt-owner-img {
+    width: 50%;
+    float: left;
+    z-index: 2;
+    position: relative;
+}
+.cont {
+    min-height: 500px;
+}
+section.about-owner img{
+   width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50px;
+    transition: 0.5s all;
+    border-radius: 50px;
+}
+section.about-owner img:hover{
+    transform: scale(1.14);
+}
+section.about-owner svg {
+    height: 588px;
+    width: 100%;
+}
+section.about-owner .head-sec{
+   text-align:left;
+   margin-bottom: var(--m15);
+}
+section.about-owner h4{
+    font-size: var(--f21);
+    font-weight: 500;
+}
+section.about-owner .icon-area {
+    border-radius: 100%;
+    border: 1px solid #b3b3b3;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: var(--f20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.about-owner .call-us, section.about-owner .email-us {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+section.about-owner .call-area {
+    display: block;
+}
+section.about-owner .call-area a{
+    display: block;
+}
+section.about-owner .call-area a:hover{
+    color: var(--other-color);
+}
+section.about-owner .abt-detail {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: var(--m30);
+}

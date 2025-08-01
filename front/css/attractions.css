@@ -1,0 +1,12 @@
+section.summary-section a{
+	color: var(--heading-color);
+	font-size: 28px;
+}
+section.summary-section a.main-btn.mr {
+    width: 150px;
+    font-size: 16px;
+    text-align: center;
+}
+section.summary-section a.main-btn.mr:hover span{
+	color: #fff;
+}

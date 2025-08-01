@@ -1,0 +1,25 @@
+@media (max-width: 980px){
+	section.Blog-details img{
+		width: 100%;
+    max-width: 100%;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    height: 350px;
+    object-fit: cover;
+    float: none;
+	}
+	section.Blog-details .container div {
+    width: 100%;
+    min-height: auto;
+}
+}
+@media (max-width: 540px){
+	section.Blog-details img{
+		height: 300px;
+	}
+}
+@media (max-width: 360px){
+	section.Blog-details img{
+		height: 250px;
+	}
+}

@@ -1,0 +1,1 @@
+<?php echo $email_body; ?><?php /**PATH /home/holmeswithaview/htdocs/www.holmeswithaview.com/projects/resources/views/mail/dummyMail.blade.php ENDPATH**/ ?>

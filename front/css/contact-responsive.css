@@ -1,0 +1,24 @@
+@media (max-width: 1366px){
+	.contact-page-section .contact-info-box{
+		width: 50%;
+	}
+	.contact-page-section .contact-info-box.col-lg-2.col-md-6.col-sm-12{
+		border-right: 0px solid;
+	}
+}
+@media (max-width: 991px){
+	.contact-map {
+    height: 550px;
+}
+}
+@media (max-width: 540px){
+	.contact-page-section .contact-info-box {
+    width: 100%;
+}
+.contact-form input{
+	margin-bottom: 15px;
+}
+.contact-map {
+    height: 400px;
+}
+}
