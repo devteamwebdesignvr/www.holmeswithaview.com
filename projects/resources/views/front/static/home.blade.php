@@ -34,9 +34,21 @@
 					<form method="get" action="{{ url('properties') }}">
 						<div class="row">
 						<div class="col-3 md-12 sm-12 select">
-								{!! Form::select("location_id",HostAwayAPI::getPropertyListDataSelect(),null,["class"=>"","placeholder"=>"Select Property","title"=>"Select Property","id"=>"loc"]) !!}
-								<i class="fa-solid fa-location-dot"></i>
-							</div> 
+    {!! Form::select(
+        "location_id",
+        HostAwayAPI::getPropertyListDataSelect(),
+        null,
+        [
+            "class" => "",
+            "placeholder" => "Select Property",
+            "title" => "Select Property",
+            "id" => "loc",
+            "onchange" => "this.form.submit()"
+        ]
+    ) !!}
+    <i class="fa-solid fa-location-dot"></i>
+</div>
+ 
                           {{--
 							<div class="col-6 col-lg md-8 icns mb-lg-0 position-relative  datepicker-section datepicker-common-2 main-check">
 								<div class="row">
@@ -78,7 +90,7 @@
 								</div>
 							</div>
                           --}}
-							<div class="col-3 md-12 sm-12 srch-btn">
+							<div class="col-3 md-12 sm-12 srch-btn d-none">
 								<button type="submit" class="main-btn "><i class="fa-solid fa-magnifying-glass"></i></button>
 							</div>
 						</div>
@@ -626,5 +638,16 @@
 	});
 	
 	
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const locationSelect = document.getElementById('loc');
+
+    locationSelect.addEventListener('change', function () {
+        if (this.value !== '') {
+            this.form.submit();
+        }
+    });
+});
 </script>
 @stop

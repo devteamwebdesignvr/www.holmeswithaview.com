@@ -90,9 +90,9 @@
 
   .search-bar .col-3{
    position: relative;
-   width: 85%;
+   width: 100%;
    padding-left: var(--p15);
-   padding-right: 0;
+   padding-right: 15px;
    padding-top: var(--p12);
    padding-bottom: var(--p12);
   }

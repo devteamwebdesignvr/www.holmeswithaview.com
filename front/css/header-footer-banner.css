@@ -485,6 +485,16 @@ header.desk-nav .bottom-header {
  header.desk-nav ul.navbar-nav a:hover{
     color: var(--other-color);
  }
+ header.desk-nav ul.navbar-nav li{
+	 display:flex;
+	 align-items:center;
+ }
+header ul.navbar-nav .main-btn{
+	color: var(--white-color) !important;
+	background: var(--other-color);
+	margin-right: 0 !important;
+	border-color: var(--other-color);
+}
  header.desk-nav .col-10{
     display: flex;
     justify-content: flex-end;
