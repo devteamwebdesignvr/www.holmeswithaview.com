@@ -109,6 +109,7 @@
                                 </ul>
                             </li>
                     <li><a href="{{ url('contact-us') }}">Contact Us</a></li>
+					<li class="book-btn"><a href="{{ url('properties') }}" class="main-btn">Book Now</a></li>
 							</ul>
 						</div>
 					</nav>
@@ -152,6 +153,7 @@
                                 </ul>
                             </li>
                     <li><a href="{{ url('contact-us') }}">Contact Us</a></li>
+					<li class="book-btn"><a href="{{ url('properties') }}" class="main-btn">Book Now</a></li>
 							</ul>
 						</div>
 					</nav>
